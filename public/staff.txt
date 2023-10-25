@@ -1,0 +1,41 @@
+const list = [
+    {
+      name: {
+        title: "Ms",
+        first: "Maya",
+        last: "Genz"
+        },
+      email: "maya.genz@example.com",
+      picture: "https://randomuser.me/api/portraits/thumb/women/38.jpg",
+    },
+    {
+     name: {
+        title: "Mr",
+        first: "Jeppe",
+        last: "Hansen"
+        },
+      email: "jeppe.hansen@example.com",
+      picture: "https://randomuser.me/api/portraits/thumb/men/51.jpg",
+    },
+    {
+      name: {
+        title: "Mr",
+        first: "Hemang",
+        last: "Chiplunkar"
+        },
+      email: "hemang.chiplunkar@example.com",
+      picture: "https://randomuser.me/api/portraits/thumb/men/11.jpg",
+    },
+    {
+      name: {
+        title: "Ms",
+        first: "Zoe",
+        last: "Lo"
+        },
+      email: "zoe.lo@example.com",
+      picture: "https://randomuser.me/api/portraits/thumb/women/11.jpg",
+    }
+
+]
+
+]

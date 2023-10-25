@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EJS</title>
+    <!-- local css file in public directory -->
+    <link rel="stylesheet" href="./myui.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About Us</a>
+        <a href="/staff">Staff</a>
+    </nav>
+
+    <main>
+        <h1>
+            <%= tdata %>
+        </h1>
+        <p>
+            <%= intro %>
+        </p>
+        <p>
+        <ul>
+            <% if(typeof staff_data !=='undefined' ) { 
+
+                staff_data.forEach(staff => { %>
+
+                <li>
+                    <a href="/details?staffid=<%= staff.id%>">
+                    <%= staff.name %></a>
+                </li>
+
+                <% });
+             }%>
+        </ul>
+        </p>
+
+    </main>
+
+</body>
+
+</html>
